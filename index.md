@@ -19,7 +19,7 @@
 
 <br/>
 
-## install
+# install
 all data structures:
 ```sh
 npm install --save datastructures-js
@@ -30,10 +30,10 @@ or individually per usage:
 npm install --save @datastructures-js/stack
 ```
 
-## extend
+# extend
 There are sometimes domain-specific use cases for data structures that require either a tweak or additional functionality. Data structures here are implemented as a base general purpose classes in ES6. You can always use any of these classes to override or extend the functionality in your own code.
 
-### Example
+## Example
 
 ```js
 const { Graph } = require('@datastructures-js/graph');
@@ -45,7 +45,7 @@ class BusStationsGraph extends Graph {
 }
 ```
 
-## License
+# License
 The MIT License (MIT)
 
 Copyright (c) 2015-present Eyas Ranjous <eyas.ranjous@gmail.com>
