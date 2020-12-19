@@ -1,6 +1,7 @@
-# <a href="https://github.com/datastructures-js">datastructures-js<a/>
+# datastructures-js
 <br/>
 <table>
+  <tr><td colspan="4"><a href="https://github.com/datastructures-js">datastructures-js<a/></td></tr>
   <tr>
     <td><a href="https://github.com/datastructures-js/queue">Queue</a></td>
     <td><a href="https://github.com/datastructures-js/stack">Stack</a></td>
