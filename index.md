@@ -1,5 +1,3 @@
-consolidates all data structures of <a href="https://github.com/datastructures-js">@datastructures-js</a> into a single repository. Data structures are distributed into their own repositories for easier maintenance and usability so that they can be installed and imported individually in the code.
-
 # Table of Contents
 * [Install](#install)
 * [API](#api)
@@ -90,6 +88,7 @@ class BusStationsGraph extends Graph {
 ```
 
 ### Data Structures
+https://github.com/datastructures-js
 
 #### Queue
 https://github.com/datastructures-js/queue
