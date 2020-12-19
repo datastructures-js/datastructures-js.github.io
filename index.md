@@ -2,15 +2,15 @@
 
 
 
-* [Queue](https://github.com/datastructures-js/queue)
-* [Stack](https://github.com/datastructures-js/stack)
-* [Set](https://github.com/datastructures-js/set)
-* [Linked List](https://github.com/datastructures-js/linked-list)
-* [Heap](https://github.com/datastructures-js/heap)
-* [Priority Queue](https://github.com/datastructures-js/priority-queue)
-* [Graph](https://github.com/datastructures-js/graph)
-* [Binary Search Tree](https://github.com/datastructures-js/binary-search-tree)
-* [Trie](https://github.com/datastructures-js/trie)
+## [Queue](https://github.com/datastructures-js/queue)
+## [Stack](https://github.com/datastructures-js/stack)
+## [Set](https://github.com/datastructures-js/set)
+## [Linked List](https://github.com/datastructures-js/linked-list)
+## [Heap](https://github.com/datastructures-js/heap)
+## [Priority Queue](https://github.com/datastructures-js/priority-queue)
+## [Graph](https://github.com/datastructures-js/graph)
+## [Binary Search Tree](https://github.com/datastructures-js/binary-search-tree)
+## [Trie](https://github.com/datastructures-js/trie)
 
 
 ## install
