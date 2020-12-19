@@ -1,7 +1,7 @@
 ## repositories
 <table>
   <tr>
-    <td colspan="5"><a href="https://github.com/datastructures-js">datastructures-js</a></td>
+    <td colspan="5"><a href="https://github.com/datastructures-js">@datastructures-js</a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/datastructures-js/queue">Queue</a></td>
