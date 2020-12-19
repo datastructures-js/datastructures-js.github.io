@@ -1,34 +1,28 @@
-# datastructures-js
+# <a href="https://github.com/datastructures-js">datastructures-js<a/>
 
-* [Install](#install)
-* [API](#api)
-  * [require](#require)
-  * [import](#import)
-  * [extend](#extend)
-  * [Data Structures](#data-structures)
-    * [Queue](#queue)
-    * [Stack](#stack)
-    * [Set](#set)
-    * [Linked List](#linked-list)
-    * [Doubly Linked List](#doubly-linked-list)
-    * [Min Heap](#min-heap)
-    * [Max Heap](#max-heap)
-    * [Min Priority Queue](#min-priority-queue)
-    * [Max Priority Queue](#max-priority-queue)
-    * [Graph](#graph)
-    * [Directed Graph](#directed-graph)
-    * [Binary Search Tree](#binary-search-tree)
-    * [AVL (Self Balancing) Tree](#avl-tree)
-    * [Trie](#trie)
- * [Build](#build)
- * [License](#license)
+
+
+* [Queue](https://github.com/datastructures-js/queue)
+* [Stack](https://github.com/datastructures-js/stack)
+* [Set](https://github.com/datastructures-js/set)
+* [Linked List](https://github.com/datastructures-js/linked-list)
+* [Heap](https://github.com/datastructures-js/heap)
+* [Priority Queue](https://github.com/datastructures-js/priority-queue)
+* [Graph](https://github.com/datastructures-js/graph)
+* [Binary Search Tree](https://github.com/datastructures-js/binary-search-tree)
+* [Trie](https://github.com/datastructures-js/trie)
+
 
 ## install
+all data structures:
 ```sh
 npm install --save datastructures-js
 ```
 
-## API
+or individually per usage:
+```sh
+npm install --save @datastructures-js/stack
+```
 
 ### require
 ```js
@@ -88,55 +82,25 @@ class BusStationsGraph extends Graph {
 }
 ```
 
-### Data Structures
-https://github.com/datastructures-js
-
-#### Queue
-https://github.com/datastructures-js/queue
-
-#### Stack
-https://github.com/datastructures-js/stack
-
-#### Set
-https://github.com/datastructures-js/set
-
-#### Linked List
-https://github.com/datastructures-js/linked-list
-
-#### Doubly Linked List
-https://github.com/datastructures-js/linked-list
-
-#### Min Heap
-https://github.com/datastructures-js/heap
-
-#### Max Heap
-https://github.com/datastructures-js/heap
-
-#### Min Priority Queue
-https://github.com/datastructures-js/priority-queue
-
-#### Max Priority Queue
-https://github.com/datastructures-js/priority-queue
-
-#### Graph
-https://github.com/datastructures-js/graph
-
-#### Directed Graph
-https://github.com/datastructures-js/graph
-
-#### Binary Search Tree
-https://github.com/datastructures-js/binary-search-tree
-
-#### AVL Tree
-https://github.com/datastructures-js/binary-search-tree
-
-#### Trie
-https://github.com/datastructures-js/trie
-
-## Build
-```
-grunt build
-```
-
 ## License
-The MIT License. Full License is [here](https://github.com/eyas-ranjous/datastructures-js/blob/master/LICENSE)
+The MIT License (MIT)
+
+Copyright (c) 2020 Eyas Ranjous <eyas.ranjous@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
