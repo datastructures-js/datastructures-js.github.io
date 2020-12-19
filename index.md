@@ -13,7 +13,7 @@
     <td><a href="https://github.com/datastructures-js/graph">Graph</a></td>
     <td><a href="https://github.com/datastructures-js/binary-search-tree">Binary Search Tree</a></td>
     <td><a href="https://github.com/datastructures-js/trie">Trie</a></td>
-  <tr>
+  </tr>
 </table>
 
 ## install
