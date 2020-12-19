@@ -1,5 +1,5 @@
 # <a href="https://github.com/datastructures-js">datastructures-js<a/>
-
+<br/>
 <table>
   <tr>
     <td><a href="https://github.com/datastructures-js/queue">Queue</a></td>
@@ -27,10 +27,10 @@ or individually per usage:
 npm install --save @datastructures-js/stack
 ```
 
-### extend
+## extend
 There are sometimes domain-specific use cases for data structures that require either a tweak or additional functionality. Data structures here are implemented as a base general purpose classes in ES6. You can always use any of these classes to override or extend the functionality in your own code.
 
-#### Example
+### Example
 
 ```js
 const { Graph } = require('@datastructures-js/graph');
