@@ -1,17 +1,20 @@
 # <a href="https://github.com/datastructures-js">datastructures-js<a/>
 
-
-
-## [Queue](https://github.com/datastructures-js/queue)
-## [Stack](https://github.com/datastructures-js/stack)
-## [Set](https://github.com/datastructures-js/set)
-## [Linked List](https://github.com/datastructures-js/linked-list)
-## [Heap](https://github.com/datastructures-js/heap)
-## [Priority Queue](https://github.com/datastructures-js/priority-queue)
-## [Graph](https://github.com/datastructures-js/graph)
-## [Binary Search Tree](https://github.com/datastructures-js/binary-search-tree)
-## [Trie](https://github.com/datastructures-js/trie)
-
+<table>
+  <tr>
+    <td><a href="https://github.com/datastructures-js/queue">Queue</a></td>
+    <td><a href="https://github.com/datastructures-js/stack">Stack</a></td>
+    <td><a href="https://github.com/datastructures-js/set">Set</a></td>
+    <td colspan="2"><a href="https://github.com/datastructures-js/linked-list">Linked List</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/datastructures-js/heap">Heap</a></td>
+    <td><a href="https://github.com/datastructures-js/priority-queue">Priority Queue</a></td>
+    <td><a href="https://github.com/datastructures-js/graph">Graph</a></td>
+    <td><a href="https://github.com/datastructures-js/binary-search-tree">Binary Search Tree</a></td>
+    <td><a href="https://github.com/datastructures-js/trie">Trie</a></td>
+  <tr>
+</table>
 
 ## install
 all data structures:
