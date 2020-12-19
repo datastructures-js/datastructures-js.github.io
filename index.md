@@ -24,56 +24,13 @@ or individually per usage:
 npm install --save @datastructures-js/stack
 ```
 
-### require
-```js
-// import your required classes
-const {
-  Queue,
-  Stack,
-  Set: EnhancedSet, // renamed to avoid conflict with es6 Set
-  LinkedList,
-  DoublyLinkedList,
-  MinHeap,
-  MaxHeap,
-  MinPriorityQueue,
-  MaxPriorityQueue,
-  Graph,
-  DirectedGraph,
-  BinarySearchTree,
-  AvlTree,
-  Trie
-} = require('datastructures-js');
-```
-
-### import
-```js
-// import your required classes
-import {
-  Queue,
-  PriorityQueue,
-  Stack,
-  Set as EnhancedSet, // renamed to avoid conflict with es6 Set
-  LinkedList,
-  DoublyLinkedList,
-  MinHeap,
-  MaxHeap,
-  MinPriorityQueue,
-  MaxPriorityQueue,
-  Graph,
-  DirectedGraph,
-  BinarySearchTree,
-  AvlTree,
-  Trie
-} from 'datastructures-js';
-```
-
 ### extend
 There are sometimes domain-specific use cases for data structures that require either a tweak or additional functionality. Data structures here are implemented as a base general purpose classes in ES6. You can always use any of these classes to override or extend the functionality in your own code.
 
 #### Example
 
 ```js
-const { Graph } = require('datastructures-js'); // OR require('@datastructures-js/graph')
+const { Graph } = require('@datastructures-js/graph');
 
 class BusStationsGraph extends Graph {
   findShortestPath(srcStationId, destStationId) {
