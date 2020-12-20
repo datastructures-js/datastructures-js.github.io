@@ -84,7 +84,7 @@ class BusStationsGraph extends Graph {
 ### Check if a string has balanced brackets
 
 ```js
-const Stack = require('./index');
+const Stack = require('@datastructures-js/stack');
 
 function hasBalancedBrackets(str) {
   const leftBrackets = new Set(['(', '[', '{']);
@@ -113,8 +113,6 @@ function hasBalancedBrackets(str) {
 }
 
 console.log(hasBalancedBrackets('{{[[()]]}}')); // true
-
-console.log(hasBalancedBrackets('{[(}')); // false
 ```
 
 # License
