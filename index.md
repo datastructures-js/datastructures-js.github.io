@@ -102,9 +102,11 @@ function hasBalancedBrackets(str) {
       stack.push(str[i]);
     } else if (rightLeftBrackets.has(str[i])) {
       const matchingLeftBracket = rightLeftBrackets.get(str[i]);
-      const topBracket = stack.peek()
+      const topBracket = stack.peek();
       if (matchingLeftBracket === topBracket) {
         stack.pop();
+      } else {
+        return false;
       }
     }
   }
@@ -113,6 +115,7 @@ function hasBalancedBrackets(str) {
 }
 
 console.log(hasBalancedBrackets('{{[[()]]}}')); // true
+console.log(hasBalancedBrackets('{[()]}}')); // true
 ```
 {% endraw %}
 
