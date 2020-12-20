@@ -1,6 +1,7 @@
 theme: jekyll-theme-tactile
 title: datastructures-js
 description: production-ready data structures implementation in javascript.
+author: Eyas Ranjous
 github:
   is_project_page: false
 
