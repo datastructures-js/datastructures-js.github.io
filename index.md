@@ -65,7 +65,7 @@ npm install --save @datastructures-js/stack
 ```
 
 # extend
-You can extend any of these classes to override or enhance the functionality in your own code.
+You can extend data structure to override or enhance functionality in your own code.
 
 ## Example
 
