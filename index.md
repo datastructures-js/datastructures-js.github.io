@@ -112,7 +112,7 @@ function hasBalancedBrackets(str) {
   return stack.size() === 0;
 }
 
-console.log(hasBalancedBrackets('{{[[()]]}}')); // true
+console.log(hasBalancedBrackets('\{\{\[\[\(\)\]\]\}\}')); // true
 ```
 
 # License
