@@ -87,12 +87,13 @@ class BusStationsGraph extends Graph {
 const Stack = require('@datastructures-js/stack');
 
 function hasBalancedBrackets(str) {
-  const leftBrackets = new Set(['(', '[', '{']);
+  const leftBrackets = new Set(['(', '[', '{', '<']);
 
   const rightLeftBrackets = new Map([
     [')', '('],
     [']', '['],
-    ['}', '{']
+    ['}', '{'],
+    ['>', '<']
   ]);
 
   const stack = new Stack();
@@ -114,7 +115,7 @@ function hasBalancedBrackets(str) {
   return stack.size() === 0;
 }
 
-console.log(hasBalancedBrackets('{{[[()]]}}')); // true
+console.log(hasBalancedBrackets('{{<[[<()>]]>}}')); // true
 console.log(hasBalancedBrackets('{[()]}}')); // true
 ```
 {% endraw %}
