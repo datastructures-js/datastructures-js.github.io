@@ -81,9 +81,11 @@ class BusStationsGraph extends Graph {
 
 ## Stack
 
-### Check if a string has balanced brackets
+### Problem: Balanced Brackets
 {% raw %}
 ```js
+// check if a string has balanced brackets using a stack
+
 const Stack = require('@datastructures-js/stack');
 
 function hasBalancedBrackets(str) {
