@@ -3,17 +3,17 @@
     <td colspan="5"><a href="https://github.com/datastructures-js">@datastructures-js</a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/datastructures-js/queue">Queue</a></td>
-    <td><a href="https://github.com/datastructures-js/stack">Stack</a></td>
-    <td><a href="https://github.com/datastructures-js/set">Set</a></td>
-    <td colspan="2"><a href="https://github.com/datastructures-js/linked-list">Linked List</a></td>
+    <td><a href="https://github.com/datastructures-js/queue#datastructures-jsqueue">Queue</a></td>
+    <td><a href="https://github.com/datastructures-js/stack#datastructures-jsstack">Stack</a></td>
+    <td><a href="https://github.com/datastructures-js/set#datastructures-jsset">Set</a></td>
+    <td colspan="2"><a href="https://github.com/datastructures-js/linked-list#datastrucures-jslinked-list">Linked List</a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/datastructures-js/heap">Heap</a></td>
-    <td><a href="https://github.com/datastructures-js/priority-queue">Priority Queue</a></td>
-    <td><a href="https://github.com/datastructures-js/graph">Graph</a></td>
-    <td><a href="https://github.com/datastructures-js/binary-search-tree">Binary Search Tree</a></td>
-    <td><a href="https://github.com/datastructures-js/trie">Trie</a></td>
+    <td><a href="https://github.com/datastructures-js/heap#datastructures-jsheap">Heap</a></td>
+    <td><a href="https://github.com/datastructures-js/priority-queue#datastructures-jspriority-queue">Priority Queue</a></td>
+    <td><a href="https://github.com/datastructures-js/graph#datastructures-jsgraph">Graph</a></td>
+    <td><a href="https://github.com/datastructures-js/binary-search-tree#datastructures-jsbinary-search-tree">Binary Search Tree</a></td>
+    <td><a href="https://github.com/datastructures-js/trie#datastructures-jstrie">Trie</a></td>
   </tr>
 </table>
 
