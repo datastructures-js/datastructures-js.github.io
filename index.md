@@ -89,7 +89,7 @@ const Stack = require('@datastructures-js/stack');
 function hasBalancedBrackets(str) {
   const leftBrackets = new Set(['(', '[', '{', '<']);
 
-  const rightLeftBrackets = new Map([
+  const rightBrackets = new Map([
     [')', '('],
     [']', '['],
     ['}', '{'],
@@ -100,13 +100,11 @@ function hasBalancedBrackets(str) {
 
   for (let i = 0; i < str.length; i += 1) {
     const char = str[i];
-    
     if (leftBrackets.has(char)) {
       stack.push(char);
-    } else if (rightLeftBrackets.has(char)) {
-      const matchingLeftBracket = rightLeftBrackets.get(char);
+    } else if (rightBrackets.has(char)) {
+      const matchingLeftBracket = rightBrackets.get(char);
       const topBracket = stack.peek();
-      
       if (matchingLeftBracket === topBracket) {
         stack.pop();
       } else {
