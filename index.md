@@ -1,6 +1,8 @@
 <table>
   <tr>
-    <td colspan="3"><a href="https://github.com/datastructures-js">@datastructures-js</a></td>
+    <td><a href="https://github.com/datastructures-js/datastructures-js">datastructures-js</a></td>
+    <td><img src="https://img.shields.io/npm/v/datastructures-js.svg"/></td>
+    <td><img src="https://img.shields.io/npm/dm/datastructures-js.svg"/></td>
   </tr>
   <tr>
     <td><a href="https://github.com/datastructures-js/stack#datastructures-jsstack">Stack</a></td>
