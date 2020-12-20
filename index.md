@@ -99,10 +99,11 @@ function hasBalancedBrackets(str) {
   const stack = new Stack();
 
   for (let i = 0; i < str.length; i += 1) {
-    if (leftBrackets.has(str[i])) {
-      stack.push(str[i]);
-    } else if (rightLeftBrackets.has(str[i])) {
-      const matchingLeftBracket = rightLeftBrackets.get(str[i]);
+    const char = str[i];
+    if (leftBrackets.has(char)) {
+      stack.push(char);
+    } else if (rightLeftBrackets.has(char)) {
+      const matchingLeftBracket = rightLeftBrackets.get(char);
       const topBracket = stack.peek();
       if (matchingLeftBracket === topBracket) {
         stack.pop();
