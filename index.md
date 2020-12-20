@@ -80,4 +80,6 @@ class BusStationsGraph extends Graph {
 ```
 
 # License
-The MIT License (MIT). Copyright (c) 2015-present / Eyas Ranjous <eyas.ranjous@gmail.com>
+The MIT License (MIT).
+
+Copyright (c) 2015-present / Eyas Ranjous <eyas.ranjous@gmail.com>
