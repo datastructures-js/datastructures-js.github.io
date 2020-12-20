@@ -1,3 +1,5 @@
 theme: jekyll-theme-hacker
 title: datastructures-js
 description: production-ready data structures implementation in javascript.
+is_project_page: false
+
