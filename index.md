@@ -67,16 +67,54 @@ npm install --save @datastructures-js/stack
 # extend
 You can extend data structure to override or enhance functionality in your own code.
 
-## Example
-
 ```js
 const { Graph } = require('@datastructures-js/graph');
 
 class BusStationsGraph extends Graph {
   findShortestPath(srcStationId, destStationId) {
-    // benefit from Graph to implement your own code 
+    // more code 
   }
 }
+```
+
+# Examples
+
+## Stack
+
+### Check if a string has balanced brackets
+
+```js
+const Stack = require('./index');
+
+function hasBalancedBrackets(str) {
+  const leftBrackets = new Set(['(', '[', '{']);
+
+  const rightLeftBrackets = new Map([
+    [')', '('],
+    [']', '['],
+    ['}', '{']
+  ]);
+
+  const stack = new Stack();
+
+  for (let i = 0; i < str.length; i += 1) {
+    if (leftBrackets.has(str[i])) {
+      stack.push(str[i]);
+    } else if (rightLeftBrackets.has(str[i])) {
+      const matchingLeftBracket = rightLeftBrackets.get(str[i]);
+      const topBracket = stack.peek()
+      if (matchingLeftBracket === topBracket) {
+        stack.pop();
+      }
+    }
+  }
+
+  return stack.size() === 0;
+}
+
+console.log(hasBalancedBrackets('{{[[()]]}}')); // true
+
+console.log(hasBalancedBrackets('{{[[(()]}')); // false
 ```
 
 # License
