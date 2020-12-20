@@ -1,4 +1,4 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
 title: datastructures-js
 description: production-ready data structures implementation in javascript.
 github:
