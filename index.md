@@ -112,7 +112,7 @@ console.log(firstDuplicate([1,2,3,4,5])); // -1
 <b>Problem: Balanced Brackets</b>
 {% raw %}
 ```js
-// check if a string has balanced brackets using a stack
+// check if a string has balanced brackets
 
 const Stack = require('@datastructures-js/stack');
 
