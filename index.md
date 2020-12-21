@@ -81,7 +81,7 @@ class BusStationsGraph extends Graph {
 <br/>
 ## Stack
 
-### Problem: Balanced Brackets
+Problem: Balanced Brackets
 {% raw %}
 ```js
 // check if a string has balanced brackets using a stack
