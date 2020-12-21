@@ -106,7 +106,7 @@ console.log(firstDuplicate([3,1,2,6,6,2,2,6,7])); // 2
 console.log(firstDuplicate([1,2,3,4,5])); // -1
 ```
 {% endraw %}
-
+<br/>
 ## Stack
 
 <b>Problem: Balanced Brackets</b>
