@@ -102,7 +102,7 @@ function firstDuplicate(arr) {
   return -1;
 }
 
-console.log(firstDuplicate([3,1,2,6,6,2,2,6,7])); // 2
+console.log(firstDuplicate([3,1,2,6,6,2,2,6,7])); // 6
 console.log(firstDuplicate([1,2,3,4,5])); // -1
 ```
 {% endraw %}
