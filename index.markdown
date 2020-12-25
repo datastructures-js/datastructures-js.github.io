@@ -68,20 +68,20 @@ layout: default
   </div>
   <div class="ds-category">
     <div class="ds-page">
-      <a href="https://github.com/datastructures-js/graph#datastructures-jsgraph">Graph</a>
-    </div>
-    <div class="ds-badges">
-      <img src="https://img.shields.io/npm/v/@datastructures-js/graph.svg"/>
-      <img src="https://img.shields.io/npm/dm/@datastructures-js/graph.svg"/>
-    </div>
-  </div>
-  <div class="ds-category">
-    <div class="ds-page">
       <a href="https://github.com/datastructures-js/trie#datastructures-jstrie">Trie</a>
     </div>
     <div class="ds-badges">
       <img src="https://img.shields.io/npm/v/@datastructures-js/trie.svg"/>
       <img src="https://img.shields.io/npm/dm/@datastructures-js/trie.svg"/>
+    </div>
+  </div>
+  <div class="ds-category">
+    <div class="ds-page">
+      <a href="https://github.com/datastructures-js/graph#datastructures-jsgraph">Graph</a>
+    </div>
+    <div class="ds-badges">
+      <img src="https://img.shields.io/npm/v/@datastructures-js/graph.svg"/>
+      <img src="https://img.shields.io/npm/dm/@datastructures-js/graph.svg"/>
     </div>
   </div>
 </div>
