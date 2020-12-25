@@ -23,20 +23,20 @@ layout: default
   </div>
   <div class="ds-category">
     <div class="ds-page">
-      <a href="https://github.com/datastructures-js/set#datastructures-jsset">Set</a>
-    </div>
-    <div class="ds-badges">
-      <img src="https://img.shields.io/npm/v/@datastructures-js/set.svg"/>
-      <img src="https://img.shields.io/npm/dm/@datastructures-js/set.svg"/>
-    </div>
-  </div>
-  <div class="ds-category">
-    <div class="ds-page">
       <a href="https://github.com/datastructures-js/linked-list#datastrucures-jslinked-list">Linked List</a>
     </div>
     <div class="ds-badges">
       <img src="https://img.shields.io/npm/v/@datastructures-js/linked-list.svg"/>
       <img src="https://img.shields.io/npm/dm/@datastructures-js/linked-list.svg"/>
+    </div>
+  </div>
+  <div class="ds-category">
+    <div class="ds-page">
+      <a href="https://github.com/datastructures-js/set#datastructures-jsset">Set</a>
+    </div>
+    <div class="ds-badges">
+      <img src="https://img.shields.io/npm/v/@datastructures-js/set.svg"/>
+      <img src="https://img.shields.io/npm/dm/@datastructures-js/set.svg"/>
     </div>
   </div>
   <div class="ds-category">
