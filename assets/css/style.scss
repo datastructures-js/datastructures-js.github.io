@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+#container {
+  background: none !important;
+}
+
 header {
   display: flex;
 
@@ -39,15 +43,14 @@ header {
   
   .ds-category {
     background-color: #f4f4f4;
-    border: 1px solid #aaa;
     border-radius: 10px;
     margin-right: 10px;
-    margin-bottom: 10px;
-    width: 43%;
-    padding: 10px 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 20px 15px;
 
     .ds-page {
-      margin-bottom: 20px;
+      margin-bottom: 15px;
     }
   }
 }
