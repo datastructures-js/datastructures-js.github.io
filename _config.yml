@@ -1,7 +1,11 @@
-theme: jekyll-theme-tactile
 title: datastructures-js
+email: eyas.ranjous@gmail.com
 description: production-ready data structures implementation in javascript.
+baseurl: ""
+url: ""
+github_username:  eyas.ranjous
+theme: jekyll-theme-tactile
 author: Eyas Ranjous
-github:
-  is_project_page: false
 
+gems:
+  - jekyll-seo-tag
