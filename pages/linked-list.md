@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /linked-list
+---
+
+# Linked List
+
+<div class="ds-badges">
+  <img src="https://img.shields.io/npm/v/@datastructures-js/linked-list.svg"/>
+  <img src="https://img.shields.io/npm/dm/@datastructures-js/linked-list.svg"/>
+</div>
+<hr />
+
+## Install
+```sh
+npm install --save @datastructures-js/linked-list
+```
+
+## API
+<a href="https://github.com/datastructures-js/linked-list#api">github.com/datastructures-js/linked-list#api</a>
+<br /><br />

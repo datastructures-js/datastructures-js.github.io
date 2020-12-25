@@ -66,6 +66,28 @@ header {
   }
 }
 
+.ds-badges {
+  margin-top: 10px;
+}
+
+.problem {
+  font-size: 1.1em;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: #666;
+  background-color: #f4f4f4;
+  padding: 10px 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  font-weight: 400;
+}
+
+.problem:before {
+  content: '⚬';
+  font-size: 1.25em;
+  margin-right: 10px;
+}
+
 footer {
   display: flex;
   flex-wrap: wrap;

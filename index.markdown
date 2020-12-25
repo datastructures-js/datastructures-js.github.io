@@ -5,7 +5,7 @@ layout: default
 <div class="ds-container">
   <div class="ds-category">
     <div class="ds-page">
-      <a href="https://github.com/datastructures-js/stack#datastructures-jsstack">Stack</a>
+      <a href="/stack">Stack</a>
     </div>
     <div class="ds-badges">
       <img src="https://img.shields.io/npm/v/@datastructures-js/stack.svg"/>
@@ -14,7 +14,7 @@ layout: default
   </div>
   <div class="ds-category">
     <div class="ds-page">
-      <a href="https://github.com/datastructures-js/queue#datastructures-jsqueue">Queue</a>
+      <a href="/queue">Queue</a>
     </div>
     <div class="ds-badges">
       <img src="https://img.shields.io/npm/v/@datastructures-js/queue.svg"/>
@@ -23,7 +23,7 @@ layout: default
   </div>
   <div class="ds-category">
     <div class="ds-page">
-      <a href="https://github.com/datastructures-js/linked-list#datastrucures-jslinked-list">Linked List</a>
+      <a href="/linked-list">Linked List</a>
     </div>
     <div class="ds-badges">
       <img src="https://img.shields.io/npm/v/@datastructures-js/linked-list.svg"/>
@@ -32,7 +32,7 @@ layout: default
   </div>
   <div class="ds-category">
     <div class="ds-page">
-      <a href="https://github.com/datastructures-js/set#datastructures-jsset">Set</a>
+      <a href="/set">Set</a>
     </div>
     <div class="ds-badges">
       <img src="https://img.shields.io/npm/v/@datastructures-js/set.svg"/>
@@ -41,7 +41,7 @@ layout: default
   </div>
   <div class="ds-category">
     <div class="ds-page">
-      <a href="https://github.com/datastructures-js/heap#datastructures-jsheap">Heap</a>
+      <a href="/heap">Heap</a>
     </div>
     <div class="ds-badges">
       <img src="https://img.shields.io/npm/v/@datastructures-js/heap.svg"/>
@@ -50,7 +50,7 @@ layout: default
   </div>
   <div class="ds-category">
     <div class="ds-page">
-      <a href="https://github.com/datastructures-js/priority-queue#datastructures-jspriority-queue">Priority Queue</a>
+      <a href="/priority-queue">Priority Queue</a>
     </div>
     <div class="ds-badges">
       <img src="https://img.shields.io/npm/v/@datastructures-js/priority-queue.svg"/>
@@ -59,7 +59,7 @@ layout: default
   </div>
   <div class="ds-category">
     <div class="ds-page">
-      <a href="https://github.com/datastructures-js/binary-search-tree#datastructures-jsbinary-search-tree">Binary Search Tree</a>
+      <a href="/binary-search-tree">Binary Search Tree</a>
     </div>
     <div class="ds-badges">
       <img src="https://img.shields.io/npm/v/@datastructures-js/binary-search-tree.svg"/>
@@ -68,7 +68,7 @@ layout: default
   </div>
   <div class="ds-category">
     <div class="ds-page">
-      <a href="https://github.com/datastructures-js/trie#datastructures-jstrie">Trie</a>
+      <a href="/trie">Trie</a>
     </div>
     <div class="ds-badges">
       <img src="https://img.shields.io/npm/v/@datastructures-js/trie.svg"/>
@@ -77,7 +77,7 @@ layout: default
   </div>
   <div class="ds-category">
     <div class="ds-page">
-      <a href="https://github.com/datastructures-js/graph#datastructures-jsgraph">Graph</a>
+      <a href="/graph">Graph</a>
     </div>
     <div class="ds-badges">
       <img src="https://img.shields.io/npm/v/@datastructures-js/graph.svg"/>

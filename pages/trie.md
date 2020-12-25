@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /trie
+---
+
+# Trie
+
+<div class="ds-badges">
+  <img src="https://img.shields.io/npm/v/@datastructures-js/trie.svg"/>
+  <img src="https://img.shields.io/npm/dm/@datastructures-js/trie.svg"/>
+</div>
+<hr />
+
+## Install
+```sh
+npm install --save @datastructures-js/trie
+```
+
+## API
+<a href="https://github.com/datastructures-js/trie#api">github.com/datastructures-js/trie#api</a>
+<br /><br />
