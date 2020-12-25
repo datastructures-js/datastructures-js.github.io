@@ -15,6 +15,16 @@ permalink: /stack
 npm install --save @datastructures-js/stack
 ```
 
+## require
+```js
+const Stack = require('@datastructures-js/stack');
+```
+
+## import
+```js
+import Stack from '@datastructures-js/stack';
+```
+
 ## API
 <a href="https://github.com/datastructures-js/stack#api">github.com/datastructures-js/stack#api</a>
 <br /><br />

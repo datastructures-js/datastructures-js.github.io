@@ -16,6 +16,16 @@ permalink: /graph
 npm install --save @datastructures-js/graph
 ```
 
+## require
+```js
+const { Graph, DirectedGraph } = require('@datastructures-js/graph');
+```
+
+## import
+```js
+import { Graph, DirectedGraph } from '@datastructures-js/graph';
+```
+
 ## API
 <a href="https://github.com/datastructures-js/graph#api">github.com/datastructures-js/graph#api</a>
 <br /><br />

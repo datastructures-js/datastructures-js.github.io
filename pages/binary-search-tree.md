@@ -16,6 +16,16 @@ permalink: /binary-search-tree
 npm install --save @datastructures-js/binary-search-tree
 ```
 
+## require
+```js
+const { BinarySearchTree, AvlTree } = require('@datastructures-js/binary-search-tree');
+```
+
+## import
+```js
+import { BinarySearchTree, AvlTree } from '@datastructures-js/binary-search-tree';
+```
+
 ## API
 <a href="https://github.com/datastructures-js/binary-search-tree#api">github.com/datastructures-js/binary-search-tree#api</a>
 <br /><br />

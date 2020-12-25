@@ -16,6 +16,16 @@ permalink: /trie
 npm install --save @datastructures-js/trie
 ```
 
+## require
+```js
+const Trie = require('@datastructures-js/trie');
+```
+
+## import
+```js
+import Trie from '@datastructures-js/trie';
+```
+
 ## API
 <a href="https://github.com/datastructures-js/trie#api">github.com/datastructures-js/trie#api</a>
 <br /><br />

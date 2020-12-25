@@ -16,6 +16,16 @@ permalink: /linked-list
 npm install --save @datastructures-js/linked-list
 ```
 
+## require
+```js
+const { LinkedList, DoublyLinkedList } = require('@datastructures-js/linked-list');
+```
+
+## import
+```js
+import { LinkedList, DoublyLinkedList } from '@datastructures-js/linked-list';
+```
+
 ## API
 <a href="https://github.com/datastructures-js/linked-list#api">github.com/datastructures-js/linked-list#api</a>
 <br /><br />

@@ -15,6 +15,16 @@ permalink: /set
 npm install --save @datastructures-js/set
 ```
 
+## require
+```js
+const EnhancedSet = require('@datastructures-js/set');
+```
+
+## import
+```js
+import EnhancedSet from '@datastructures-js/set';
+```
+
 ## API
 <a href="https://github.com/datastructures-js/set#api">github.com/datastructures-js/set#api</a>
 <br /><br />
@@ -25,8 +35,6 @@ npm install --save @datastructures-js/set
 {% raw %}
 ```js
 // find the first duplicate number in an array
-
-const Set = require('@datastructures-js/set');
 
 function firstDuplicate(arr) {
   const visitedNumbers = new Set();

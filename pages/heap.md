@@ -16,6 +16,16 @@ permalink: /heap
 npm install --save @datastructures-js/heap
 ```
 
+## require
+```js
+const { MinHeap, MaxHeap } = require('@datastructures-js/heap');
+```
+
+## import
+```js
+import { MinHeap, MaxHeap } from '@datastructures-js/heap';
+```
+
 ## API
 <a href="https://github.com/datastructures-js/heap#api">github.com/datastructures-js/heap#api</a>
 <br /><br />

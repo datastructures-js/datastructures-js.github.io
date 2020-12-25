@@ -15,6 +15,16 @@ permalink: /queue
 npm install --save @datastructures-js/queue
 ```
 
+## require
+```js
+const Queue = require('@datastructures-js/queue');
+```
+
+## import
+```js
+import Queue from '@datastructures-js/queue';
+```
+
 ## API
 <a href="https://github.com/datastructures-js/queue#api">github.com/datastructures-js/queue#api</a>
 <br /><br />

@@ -16,6 +16,16 @@ permalink: /priority-queue
 npm install --save @datastructures-js/priority-queue
 ```
 
+## require
+```js
+const { MinPriorityQueue, MaxPriorityQueue } = require('@datastructures-js/priority-queue');
+```
+
+## import
+```js
+import { MinPriorityQueue, MaxPriorityQueue } from '@datastructures-js/priority-queue';
+```
+
 ## API
 <a href="https://github.com/datastructures-js/priority-queue#api">github.com/datastructures-js/priority-queue#api</a>
 <br /><br />
