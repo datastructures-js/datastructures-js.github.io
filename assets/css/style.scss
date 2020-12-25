@@ -11,7 +11,7 @@ header {
   display: flex;
 
   h1 {
-    font-size: 2.5em !important;
+    font-size: 3em !important;
     font-weight: 500 !important;
   }
 
@@ -30,20 +30,6 @@ header {
 
   .header-text {
     width: 85%;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  header {
-    h1 {
-      font-size: 2.5em !important;
-      font-weight: 500 !important;
-    }
-
-    h2 {
-      font-size: 1.2em !important;
-      font-weight: normal !important;
-    }
   }
 }
 
