@@ -33,6 +33,13 @@ header {
   }
 }
 
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    display: none;
+  }
+}
+
 .button {
   padding: 10px 5px !important;
 }
