@@ -6,6 +6,6 @@ url: ""
 github_username:  eyas.ranjous
 theme: jekyll-theme-tactile
 author: Eyas Ranjous
-
+logo: "/assets/images/ds-logo.png"
 gems:
   - jekyll-seo-tag
