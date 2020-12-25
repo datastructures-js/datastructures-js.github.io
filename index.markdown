@@ -5,15 +5,6 @@ layout: default
 <div class="ds-container">
   <div class="ds-category">
     <div class="ds-page">
-      <a href="https://github.com/datastructures-js/datastructures-js">All Data Structures</a>
-    </div>
-    <div class="ds-badges">
-      <img src="https://img.shields.io/npm/v/datastructures-js.svg"/>
-      <img src="https://img.shields.io/npm/dm/datastructures-js.svg"/>
-    </div>
-  </div>
-  <div class="ds-category">
-    <div class="ds-page">
       <a href="https://github.com/datastructures-js/binary-search-tree#datastructures-jsbinary-search-tree">Binary Search Tree</a>
     </div>
     <div class="ds-badges">
