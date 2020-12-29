@@ -26,8 +26,16 @@ header {
     width: 13%;
     background-size: contain;
     background-repeat:no-repeat;
-    background-image: url('{{ site.baseurl }}/assets/images/ds-logo.png');
+    background-image: url('{{ site.baseurl }}/assets/images/ds_logo.png');
     margin-right: 20px;
+  }
+
+  .github {
+    height: 50px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-image: url('{{ site.baseurl }}/assets/images/view_on_github.png');
+    margin-left: -10px;
   }
 
   .header-text {
