@@ -30,12 +30,15 @@ header {
     margin-right: 20px;
   }
 
-  .github {
-    height: 50px;
+  .github-button a {
+    margin-left: -10px;
+    display: block;
+    background-image: url('{{ site.baseurl }}/assets/images/view_on_github.png');
     background-size: contain;
     background-repeat:no-repeat;
-    background-image: url('{{ site.baseurl }}/assets/images/view_on_github.png');
-    margin-left: -10px;
+    height: 50px;
+    width: 120px;
+    outline: 0;
   }
 
   .header-text {
