@@ -27,6 +27,6 @@ import { BinarySearchTree, AvlTree } from '@datastructures-js/binary-search-tree
 ```
 
 ## API
-<a href="https://github.com/datastructures-js/binary-search-tree#api">github.com/datastructures-js/binary-search-tree#api</a>
+<a href="https://github.com/datastructures-js/binary-search-tree#table-of-contents">github.com/datastructures-js/binary-search-tree#api</a>
 <br /><br />
 

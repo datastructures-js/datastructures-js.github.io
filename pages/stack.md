@@ -26,7 +26,7 @@ import Stack from '@datastructures-js/stack';
 ```
 
 ## API
-<a href="https://github.com/datastructures-js/stack#api">github.com/datastructures-js/stack#api</a>
+<a href="https://github.com/datastructures-js/stack#table-of-contents">github.com/datastructures-js/stack#api</a>
 <br /><br />
 ## Problems
 
