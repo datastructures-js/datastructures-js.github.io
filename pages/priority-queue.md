@@ -27,5 +27,5 @@ import { MinPriorityQueue, MaxPriorityQueue } from '@datastructures-js/priority-
 ```
 
 ## API
-<a href="https://github.com/datastructures-js/priority-queue#table-of-contents">github.com/datastructures-js/priority-queue#api</a>
+<a href="https://github.com/datastructures-js/priority-queue#table-of-contents">datastructures-js/priority-queue</a>
 <br /><br />

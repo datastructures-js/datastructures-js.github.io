@@ -27,5 +27,5 @@ import Trie from '@datastructures-js/trie';
 ```
 
 ## API
-<a href="https://github.com/datastructures-js/trie#table-of-contents">github.com/datastructures-js/trie#api</a>
+<a href="https://github.com/datastructures-js/trie#table-of-contents">datastructures-js/trie</a>
 <br /><br />

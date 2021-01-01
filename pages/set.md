@@ -26,7 +26,7 @@ import EnhancedSet from '@datastructures-js/set';
 ```
 
 ## API
-<a href="https://github.com/datastructures-js/set#table-of-contents">github.com/datastructures-js/set#api</a>
+<a href="https://github.com/datastructures-js/set#table-of-contents">datastructures-js/set</a>
 <br /><br />
 ## Problems
 

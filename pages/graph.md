@@ -27,5 +27,5 @@ import { Graph, DirectedGraph } from '@datastructures-js/graph';
 ```
 
 ## API
-<a href="https://github.com/datastructures-js/graph#table-of-contents">github.com/datastructures-js/graph#api</a>
+<a href="https://github.com/datastructures-js/graph#table-of-contents">datastructures-js/graph</a>
 <br /><br />
