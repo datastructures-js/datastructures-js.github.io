@@ -72,7 +72,8 @@ const linkedList = {
   next: {
     value: 20,
     next: {
-      value: 30, next: null
+      value: 30,
+      next: null
     }
   }
 };
