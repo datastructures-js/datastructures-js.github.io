@@ -55,17 +55,17 @@ import {
 // simple form of linked list is used (object literal)
 
 function reverseLinkedList(linkedList) {
-  if (linkedListNode === null) null;
-  if (linkedListNode.next === null) return linkedListNode;
+  if (linkedList === null) null;
+  if (linkedList.next === null) return linkedList;
 
-  const next = reverseLinkedList(linkedListNode.next);
-  linkedListNode.next.next = linkedListNode;
-  linkedListNode.next = null;
+  const next = reverseLinkedList(linkedList.next);
+  linkedList.next.next = linkedList;
+  linkedList.next = null;
 
   return next;
 }
 
-const testLinkedList = {
+const linkedList = {
   value: 10,
   next: {
     value: 20,
@@ -75,7 +75,7 @@ const testLinkedList = {
   }
 };
 
-console.log(reverseLinkedList(testLinkedList));
+console.log(reverseLinkedList(linkedList));
 
 /*
 {
