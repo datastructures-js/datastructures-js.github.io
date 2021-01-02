@@ -12,7 +12,7 @@ permalink: /stack
 
 ## Problems
 <a href="#balanced-brackets">Balanced Brackets</a>
-
+<br/>
 ## Install
 ```sh
 npm install --save @datastructures-js/stack
