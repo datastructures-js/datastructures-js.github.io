@@ -10,6 +10,9 @@ permalink: /stack
 </div>
 <hr />
 
+## Problems
+<a href="#balanced-brackets">Balanced Brackets</a>
+
 ## Install
 ```sh
 npm install --save @datastructures-js/stack
@@ -30,7 +33,7 @@ import { Stack } from '@datastructures-js/stack';
 <br /><br />
 ## Problems
 
-<p class="problem">Balanced Brackets</p>
+<p id="balanced-brackets" class="problem">Balanced Brackets</p>
 
 {% raw %}
 ```js
