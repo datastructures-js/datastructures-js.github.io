@@ -47,3 +47,29 @@ import {
 ## Full API
 <a href="https://github.com/datastructures-js/linked-list#table-of-contents">datastructures-js/linked-list</a>
 <br /><br />
+
+<p class="problem">Reverse Linked List</p>
+
+{% raw %}
+```js
+// simple form of linked list is used (object literal)
+
+function reverseLinkedList(linkedList) {
+  if (linkedListNode === null) null;
+  if (linkedListNode.next === null) return linkedListNode;
+
+  const next = reverseLinkedList(linkedListNode.next);
+  linkedListNode.next.next = linkedListNode;
+  linkedListNode.next = null;
+
+  return next;
+}
+
+const testLinkedList = { value: 10, next: { value: 20, next: { value: 30, next: null } } };
+
+console.log(reverseLinkedList(testLinkedList));
+
+// { value: 30, next: { value: 20, next: { value: 10, next: null } } }
+```
+{% endraw %}
+
