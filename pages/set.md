@@ -10,6 +10,10 @@ permalink: /set
 </div>
 <hr />
 
+## Problems
+<a href="#first-duplicate">First Duplicate</a>
+<br/><br/>
+
 ## Install
 ```sh
 npm install --save @datastructures-js/set
@@ -30,7 +34,7 @@ import EnhancedSet from '@datastructures-js/set';
 <br /><br />
 ## Problems
 
-<p class="problem">First Duplicate</p>
+<p id="first-duplicate" class="problem">First Duplicate</p>
 
 {% raw %}
 ```js

@@ -11,6 +11,11 @@ permalink: /linked-list
 </div>
 <hr />
 
+## Problems
+<a href="#reverse-linked-list">Reverse Linked List</a>
+<a href="#reverse-doubly-linked-list">Reverse Doubly Linked List</a>
+<br/><br/>
+
 ## Install
 ```sh
 npm install --save @datastructures-js/linked-list
@@ -49,7 +54,7 @@ import {
 <br /><br />
 ## Problems
 
-<p class="problem">Reverse Linked List</p>
+<p id="reverse-linked-list" class="problem">Reverse Linked List</p>
 
 {% raw %}
 ```js
@@ -94,7 +99,7 @@ console.log(reverseLinkedList(linkedList));
 ```
 {% endraw %}
 
-<p class="problem">Reverse Doubly Linked List</p>
+<p id="reverse-doubly-linked-list" class="problem">Reverse Doubly Linked List</p>
 
 {% raw %}
 ```js
