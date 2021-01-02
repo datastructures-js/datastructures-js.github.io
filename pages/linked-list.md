@@ -55,14 +55,14 @@ import {
 ```js
 // simple form of linked list is used (object literal)
 
-function reverseLinkedList(linkedList = {}) {
-  if (linkedList.next === null) return linkedList;
+function reverseLinkedList(currentNode = {}) {
+  if (currentNode.next === null) return currentNode;
 
-  const next = reverseLinkedList(linkedList.next);
-  linkedList.next.next = linkedList;
-  linkedList.next = null;
+  const reversed = reverseLinkedList(currentNode.next);
+  currentNode.next.next = currentNode;
+  currentNode.next = null;
 
-  return next;
+  return reversed;
 }
 
 // test
@@ -94,3 +94,66 @@ console.log(reverseLinkedList(linkedList));
 ```
 {% endraw %}
 
+<p class="problem">Reverse Doubly Linked List</p>
+
+{% raw %}
+```js
+// simple form of doubly linked list is used (object literal)
+
+function reverseDoublyLinkedList(currentNode = {}) {
+  if (currentNode.next === null) {
+    currentNode.prev = null;
+    return currentNode;
+  }
+
+  const reversed = reverseDoublyLinkedList(currentNode.next);
+  currentNode.next.next = currentNode;
+  currentNode.prev = currentNode.next;
+  currentNode.next = null;
+
+  return reversed;
+}
+
+// test
+
+const doublyLinkedList = {
+  value: 10,
+  prev: null
+};
+doublyLinkedList.next = {
+  value: 20,
+  prev: doublyLinkedList
+};
+
+doublyLinkedList.next.next = {
+  value: 30,
+  prev: doublyLinkedList.next,
+  next: null
+};
+
+/*
+<ref *1> {
+  value: 10,
+  prev: null,
+  next: <ref *2> {
+    value: 20,
+    prev: [Circular *1],
+    next: { value: 30, prev: [Circular *2], next: null }
+  }
+}
+*/
+
+console.log(reverseDoublyLinkedList(doublyLinkedList));
+
+/*
+<ref *1> {
+  value: 30,
+  prev: null,
+  next: <ref *2> {
+    value: 20,
+    prev: [Circular *1],
+    next: { value: 10, prev: [Circular *2], next: null }
+  }
+}
+```
+{% endraw %}
