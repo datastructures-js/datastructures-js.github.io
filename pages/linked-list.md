@@ -18,12 +18,27 @@ npm install --save @datastructures-js/linked-list
 
 ## require
 ```js
-const { LinkedList, DoublyLinkedList } = require('@datastructures-js/linked-list');
+const {
+  LinkedList,
+  DoublyLinkedList
+} = require('@datastructures-js/linked-list');
 ```
 
 ## import
 ```js
-import { LinkedList, DoublyLinkedList } from '@datastructures-js/linked-list';
+import {
+  LinkedList,
+  DoublyLinkedList
+} from '@datastructures-js/linked-list';
+```
+
+node classes are also exported and can be used
+
+```js
+import {
+  LinkedListNode,
+  DoublyLinkedListNode
+} from '@datastructures-js/linked-list';
 ```
 
 ## API
