@@ -17,12 +17,12 @@ npm install --save @datastructures-js/stack
 
 ## require
 ```js
-const Stack = require('@datastructures-js/stack');
+const { Stack } = require('@datastructures-js/stack');
 ```
 
 ## import
 ```js
-import Stack from '@datastructures-js/stack';
+import { Stack } from '@datastructures-js/stack';
 ```
 
 ## API
