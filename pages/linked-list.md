@@ -14,7 +14,6 @@ permalink: /linked-list
 ## Problems
 <div class="problems">
   <div><a href="#reverse-linked-list">Reverse Linked List</a></div>
-  <div>○</div>
   <div><a href="#reverse-doubly-linked-list">Reverse Doubly Linked List</a></div>
 </div>
 <br/>
