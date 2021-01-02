@@ -55,8 +55,7 @@ import {
 ```js
 // simple form of linked list is used (object literal)
 
-function reverseLinkedList(linkedList) {
-  if (linkedList === null) null;
+function reverseLinkedList(linkedList = {}) {
   if (linkedList.next === null) return linkedList;
 
   const next = reverseLinkedList(linkedList.next);
