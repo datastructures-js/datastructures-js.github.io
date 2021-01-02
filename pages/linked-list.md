@@ -132,7 +132,6 @@ doublyLinkedList.next = {
   value: 20,
   prev: doublyLinkedList
 };
-
 doublyLinkedList.next.next = {
   value: 30,
   prev: doublyLinkedList.next,
