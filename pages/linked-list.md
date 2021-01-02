@@ -22,6 +22,12 @@ const {
   LinkedList,
   DoublyLinkedList
 } = require('@datastructures-js/linked-list');
+
+// list node classes are also exported
+const {
+  LinkedListNode,
+  DoublyLinkedListNode
+} = require('@datastructures-js/linked-list');
 ```
 
 ## import
@@ -30,17 +36,14 @@ import {
   LinkedList,
   DoublyLinkedList
 } from '@datastructures-js/linked-list';
-```
 
-node classes are also exported and can be used
-
-```js
+// list node classes are also exported
 import {
   LinkedListNode,
   DoublyLinkedListNode
 } from '@datastructures-js/linked-list';
 ```
 
-## API
+## Full API
 <a href="https://github.com/datastructures-js/linked-list#table-of-contents">datastructures-js/linked-list</a>
 <br /><br />

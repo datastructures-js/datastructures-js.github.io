@@ -25,7 +25,7 @@ const { Stack } = require('@datastructures-js/stack');
 import { Stack } from '@datastructures-js/stack';
 ```
 
-## API
+## Full API
 <a href="https://github.com/datastructures-js/stack#table-of-contents">datastructures-js/stack</a>
 <br /><br />
 ## Problems

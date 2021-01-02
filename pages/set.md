@@ -25,7 +25,7 @@ const EnhancedSet = require('@datastructures-js/set');
 import EnhancedSet from '@datastructures-js/set';
 ```
 
-## API
+## Full API
 <a href="https://github.com/datastructures-js/set#table-of-contents">datastructures-js/set</a>
 <br /><br />
 ## Problems

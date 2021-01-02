@@ -26,7 +26,7 @@ const { BinarySearchTree, AvlTree } = require('@datastructures-js/binary-search-
 import { BinarySearchTree, AvlTree } from '@datastructures-js/binary-search-tree';
 ```
 
-## API
+## Full API
 <a href="https://github.com/datastructures-js/binary-search-tree#table-of-contents">datastructures-js/binary-search-tree</a>
 <br /><br />
 

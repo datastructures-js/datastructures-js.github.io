@@ -26,6 +26,6 @@ const Trie = require('@datastructures-js/trie');
 import Trie from '@datastructures-js/trie';
 ```
 
-## API
+## Full API
 <a href="https://github.com/datastructures-js/trie#table-of-contents">datastructures-js/trie</a>
 <br /><br />

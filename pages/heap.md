@@ -26,6 +26,6 @@ const { MinHeap, MaxHeap } = require('@datastructures-js/heap');
 import { MinHeap, MaxHeap } from '@datastructures-js/heap';
 ```
 
-## API
+## Full API
 <a href="https://github.com/datastructures-js/heap#table-of-contents">datastructures-js/heap</a>
 <br /><br />

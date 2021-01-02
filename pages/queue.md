@@ -25,6 +25,6 @@ const { Queue } = require('@datastructures-js/queue');
 import { Queue } from '@datastructures-js/queue';
 ```
 
-## API
+## Full API
 <a href="https://github.com/datastructures-js/queue#table-of-contents">datastructures-js/queue</a>
 <br /><br />

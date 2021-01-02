@@ -26,6 +26,6 @@ const { Graph, DirectedGraph } = require('@datastructures-js/graph');
 import { Graph, DirectedGraph } from '@datastructures-js/graph';
 ```
 
-## API
+## Full API
 <a href="https://github.com/datastructures-js/graph#table-of-contents">datastructures-js/graph</a>
 <br /><br />

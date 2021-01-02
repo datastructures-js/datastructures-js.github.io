@@ -26,6 +26,6 @@ const { MinPriorityQueue, MaxPriorityQueue } = require('@datastructures-js/prior
 import { MinPriorityQueue, MaxPriorityQueue } from '@datastructures-js/priority-queue';
 ```
 
-## API
+## Full API
 <a href="https://github.com/datastructures-js/priority-queue#table-of-contents">datastructures-js/priority-queue</a>
 <br /><br />
