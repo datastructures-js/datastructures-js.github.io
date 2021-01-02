@@ -65,11 +65,29 @@ function reverseLinkedList(linkedList) {
   return next;
 }
 
-const testLinkedList = { value: 10, next: { value: 20, next: { value: 30, next: null } } };
+const testLinkedList = {
+  value: 10,
+  next: {
+    value: 20,
+    next: {
+      value: 30, next: null
+    }
+  }
+};
 
 console.log(reverseLinkedList(testLinkedList));
 
-// { value: 30, next: { value: 20, next: { value: 10, next: null } } }
+/*
+{
+  value: 30,
+  next: {
+    value: 20,
+    next: {
+      value: 10,
+      next: null
+    }
+  }
+}
 ```
 {% endraw %}
 
