@@ -91,6 +91,16 @@ header {
   font-weight: 400;
 }
 
+.problems {
+  display: flex;
+  direction: row;
+  flex-wrap: wrap;
+}
+
+.problems div {
+  margin-right: 20px;
+}
+
 footer {
   display: flex;
   flex-wrap: wrap;

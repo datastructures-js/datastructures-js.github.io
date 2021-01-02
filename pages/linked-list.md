@@ -12,9 +12,12 @@ permalink: /linked-list
 <hr />
 
 ## Problems
-<a href="#reverse-linked-list">Reverse Linked List</a>
-<a href="#reverse-doubly-linked-list">Reverse Doubly Linked List</a>
-<br/><br/>
+<div class="problems">
+  <div><a href="#reverse-linked-list">Reverse Linked List</a></div>
+  <div>○</div>
+  <div><a href="#reverse-doubly-linked-list">Reverse Doubly Linked List</a></div>
+</div>
+<br/>
 
 ## Install
 ```sh

@@ -11,8 +11,10 @@ permalink: /set
 <hr />
 
 ## Problems
-<a href="#first-duplicate">First Duplicate</a>
-<br/><br/>
+<div class="problems">
+ <div><a href="#first-duplicate">First Duplicate</a></div>
+</div>
+<br/>
 
 ## Install
 ```sh
