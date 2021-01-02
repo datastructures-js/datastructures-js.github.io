@@ -17,12 +17,12 @@ npm install --save @datastructures-js/queue
 
 ## require
 ```js
-const Queue = require('@datastructures-js/queue');
+const { Queue } = require('@datastructures-js/queue');
 ```
 
 ## import
 ```js
-import Queue from '@datastructures-js/queue';
+import { Queue } from '@datastructures-js/queue';
 ```
 
 ## API
