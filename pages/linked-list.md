@@ -62,8 +62,8 @@ import {
 ```js
 // simple form of linked list is used (object literal)
 
-function reverseLinkedList(currentNode = {}) {
-  if (!currentNode.next) return currentNode;
+function reverseLinkedList(currentNode = { next: null }) {
+  if (currentNode.next === null) return currentNode;
 
   const reversed = reverseLinkedList(currentNode.next);
   currentNode.next.next = currentNode;
@@ -108,8 +108,8 @@ console.log(reverseLinkedList(linkedList));
 ```js
 // simple form of doubly linked list is used (object literal)
 
-function reverseDoublyLinkedList(currentNode = {}) {
-  if (!currentNode.next) {
+function reverseDoublyLinkedList(currentNode = { next: null, prev: null }) {
+  if (currentNode.next === null) {
     currentNode.prev = null;
     return currentNode;
   }
