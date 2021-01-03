@@ -63,7 +63,7 @@ import {
 // simple form of linked list is used (object literal)
 
 function reverseLinkedList(currentNode = {}) {
-  if (currentNode.next === null) return currentNode;
+  if (!currentNode.next) return currentNode;
 
   const reversed = reverseLinkedList(currentNode.next);
   currentNode.next.next = currentNode;
@@ -109,7 +109,7 @@ console.log(reverseLinkedList(linkedList));
 // simple form of doubly linked list is used (object literal)
 
 function reverseDoublyLinkedList(currentNode = {}) {
-  if (currentNode.next === null) {
+  if (!currentNode.next) {
     currentNode.prev = null;
     return currentNode;
   }
