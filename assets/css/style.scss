@@ -83,12 +83,21 @@ header {
 
 .problem {
   font-size: 1.05em;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 0px;
   color: #666;
   background-color: #f4f4f4;
-  padding: 15px;
+  padding: 15px 10px;
   font-weight: 400;
+}
+
+.problem:before {
+  content: '→';
+  padding-right: 10px;
+}
+
+.problem-separator {
+  margin-top: 50px;
 }
 
 .problems {

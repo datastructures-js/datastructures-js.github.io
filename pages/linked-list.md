@@ -98,10 +98,11 @@ console.log(reverseLinkedList(linkedList));
     }
   }
 }
+*/
 ```
 {% endraw %}
 
-<p id="reverse-doubly-linked-list" class="problem">Reverse Doubly Linked List</p>
+<p id="reverse-doubly-linked-list" class="problem problem-separator">Reverse Doubly Linked List</p>
 
 {% raw %}
 ```js
@@ -161,5 +162,6 @@ console.log(reverseDoublyLinkedList(doublyLinkedList));
     next: { value: 10, prev: [Circular *2], next: null }
   }
 }
+*/
 ```
 {% endraw %}
