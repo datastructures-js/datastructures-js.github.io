@@ -23,12 +23,12 @@ npm install --save @datastructures-js/set
 
 ## require
 ```js
-const EnhancedSet = require('@datastructures-js/set');
+const { EnhancedSet } = require('@datastructures-js/set');
 ```
 
 ## import
 ```js
-import EnhancedSet from '@datastructures-js/set';
+import { EnhancedSet } from '@datastructures-js/set';
 ```
 
 ## Full API
