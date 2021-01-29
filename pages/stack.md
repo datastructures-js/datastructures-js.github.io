@@ -42,7 +42,7 @@ import { Stack } from '@datastructures-js/stack';
 ```js
 // check if a string has balanced brackets
 
-const Stack = require('@datastructures-js/stack');
+const { Stack } = require('@datastructures-js/stack');
 
 function hasBalancedBrackets(str) {
   const leftBrackets = new Set(['(', '[', '{', '<']);
