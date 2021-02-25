@@ -18,12 +18,12 @@ npm install --save @datastructures-js/trie
 
 ## require
 ```js
-const Trie = require('@datastructures-js/trie');
+const { Trie, TrieNode } = require('@datastructures-js/trie');
 ```
 
 ## import
 ```js
-import Trie from '@datastructures-js/trie';
+import { Trie, TrieNode } from '@datastructures-js/trie';
 ```
 
 ## Full API
