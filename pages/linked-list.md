@@ -52,7 +52,7 @@ import {
 ```
 
 ## Full API
-<a href="https://github.com/datastructures-js/linked-list#table-of-contents">datastructures-js/linked-list</a>
+<a href="https://github.com/datastructures-js/linked-list#datastrucures-jslinked-list">datastructures-js/linked-list</a>
 <br /><br />
 ## Problems
 
