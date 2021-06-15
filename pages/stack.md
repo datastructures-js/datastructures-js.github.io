@@ -7,14 +7,9 @@ permalink: /stack
 <div class="ds-badges">
   <img src="https://img.shields.io/npm/v/@datastructures-js/stack.svg"/>
   <img src="https://img.shields.io/npm/dm/@datastructures-js/stack.svg"/>
+  <img src="https://user-images.githubusercontent.com/6517308/121813242-859a9700-cc6b-11eb-99c0-49e5bb63005b.jpg" width="40">
 </div>
 <hr />
-
-## Problems
-<div class="problems">
-  <div><a href="#balanced-brackets">Balanced Brackets</a></div>
-</div>
-<br/>
 
 ## Install
 ```sh
@@ -31,50 +26,15 @@ const { Stack } = require('@datastructures-js/stack');
 import { Stack } from '@datastructures-js/stack';
 ```
 
-## Full API
-<a href="https://github.com/datastructures-js/stack#table-of-contents">datastructures-js/stack</a>
-<br /><br />
-## Problems
-
-<p id="balanced-brackets" class="problem">Balanced Brackets</p>
-
-{% raw %}
+## JS
 ```js
-// check if a string has balanced brackets
-
-const { Stack } = require('@datastructures-js/stack');
-
-function hasBalancedBrackets(str) {
-  const leftBrackets = new Set(['(', '[', '{', '<']);
-
-  const rightBrackets = new Map([
-    [')', '('],
-    [']', '['],
-    ['}', '{'],
-    ['>', '<']
-  ]);
-
-  const stack = new Stack();
-
-  for (let i = 0; i < str.length; i += 1) {
-    const char = str[i];
-    if (leftBrackets.has(char)) {
-      stack.push(char);
-    } else if (rightBrackets.has(char)) {
-      const matchingLeftBracket = rightBrackets.get(char);
-      const topBracket = stack.peek();
-      if (matchingLeftBracket === topBracket) {
-        stack.pop();
-      } else {
-        return false;
-      }
-    }
-  }
-
-  return stack.isEmpty();
-}
-
-console.log(hasBalancedBrackets('{{<[[<()>]]>}}')); // true
-console.log(hasBalancedBrackets('{[()]}}')); // false
+const stack = new Stack([1,2,3,4]);
 ```
-{% endraw %}
+
+## TS
+```js
+const stack = new Stack<number>([1,2,3,4]);
+```
+
+## Full API
+<a href="https://github.com/datastructures-js/stack#contents">datastructures-js/stack</a>
