@@ -7,6 +7,7 @@ permalink: /queue
 <div class="ds-badges">
   <img src="https://img.shields.io/npm/v/@datastructures-js/queue.svg"/>
   <img src="https://img.shields.io/npm/dm/@datastructures-js/queue.svg"/>
+  <img src="https://user-images.githubusercontent.com/6517308/121813242-859a9700-cc6b-11eb-99c0-49e5bb63005b.jpg" width="40">
 </div>
 <hr />
 
@@ -26,5 +27,5 @@ import { Queue } from '@datastructures-js/queue';
 ```
 
 ## Full API
-<a href="https://github.com/datastructures-js/queue#table-of-contents">datastructures-js/queue</a>
+<a href="https://github.com/datastructures-js/queue#contents">datastructures-js/queue</a>
 <br /><br />
