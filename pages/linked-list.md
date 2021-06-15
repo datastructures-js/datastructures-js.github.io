@@ -35,6 +35,7 @@ import {
   DoublyLinkedList,
   DoublyLinkedListNode
 } from '@datastructures-js/linked-list';
+```
 
 ## Full API
 <a href="https://github.com/datastructures-js/linked-list#datastrucures-jslinked-list">datastructures-js/linked-list</a>
