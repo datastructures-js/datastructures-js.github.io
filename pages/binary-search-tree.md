@@ -8,6 +8,7 @@ permalink: /binary-search-tree
 <div class="ds-badges">
   <img src="https://img.shields.io/npm/v/@datastructures-js/binary-search-tree.svg"/>
   <img src="https://img.shields.io/npm/dm/@datastructures-js/binary-search-tree.svg"/>
+  <img src="https://user-images.githubusercontent.com/6517308/121813242-859a9700-cc6b-11eb-99c0-49e5bb63005b.jpg" width="40">
 </div>
 <hr />
 
@@ -18,15 +19,25 @@ npm install --save @datastructures-js/binary-search-tree
 
 ## require
 ```js
-const { BinarySearchTree, AvlTree } = require('@datastructures-js/binary-search-tree');
+const {
+  BinarySearchTree,
+  BinarySearchTreeNode,
+  AvlTree,
+  AvlTreeNode
+} = require('@datastructures-js/binary-search-tree');
 ```
 
 ## import
 ```js
-import { BinarySearchTree, AvlTree } from '@datastructures-js/binary-search-tree';
+import {
+  BinarySearchTree,
+  BinarySearchTreeNode,
+  AvlTree,
+  AvlTreeNode
+} from '@datastructures-js/binary-search-tree';
 ```
 
 ## Full API
-<a href="https://github.com/datastructures-js/binary-search-tree#table-of-contents">datastructures-js/binary-search-tree</a>
+<a href="https://github.com/datastructures-js/binary-search-tree#contents">datastructures-js/binary-search-tree</a>
 <br /><br />
 
