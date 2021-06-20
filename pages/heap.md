@@ -28,5 +28,5 @@ import { MinHeap, MaxHeap, HeapNode } from '@datastructures-js/heap';
 ```
 
 ## Full API
-<a href="https://github.com/datastructures-js/heap#contents">datastructures-js/heap</a>
+<a href="https://github.com/datastructures-js/heap#datastructures-jsheap">datastructures-js/heap</a>
 <br /><br />

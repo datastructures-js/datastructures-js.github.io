@@ -27,5 +27,5 @@ import { Stack } from '@datastructures-js/stack';
 ```
 
 ## Full API
-<a href="https://github.com/datastructures-js/stack#contents">datastructures-js/stack</a>
+<a href="https://github.com/datastructures-js/stack#datastructures-jsstack">datastructures-js/stack</a>
 <br /><br />

@@ -27,5 +27,5 @@ import { Queue } from '@datastructures-js/queue';
 ```
 
 ## Full API
-<a href="https://github.com/datastructures-js/queue#contents">datastructures-js/queue</a>
+<a href="https://github.com/datastructures-js/queue#datastructures-jsqueue">datastructures-js/queue</a>
 <br /><br />

@@ -38,6 +38,6 @@ import {
 ```
 
 ## Full API
-<a href="https://github.com/datastructures-js/binary-search-tree#contents">datastructures-js/binary-search-tree</a>
+<a href="https://github.com/datastructures-js/binary-search-tree#datastructures-jsbinary-search-tree">datastructures-js/binary-search-tree</a>
 <br /><br />
 

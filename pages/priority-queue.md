@@ -36,5 +36,5 @@ import {
 ```
 
 ## Full API
-<a href="https://github.com/datastructures-js/priority-queue#contents">datastructures-js/priority-queue</a>
+<a href="https://github.com/datastructures-js/priority-queue#datastructures-jspriority-queue">datastructures-js/priority-queue</a>
 <br /><br />
