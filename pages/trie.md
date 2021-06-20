@@ -28,5 +28,5 @@ import { Trie, TrieNode } from '@datastructures-js/trie';
 ```
 
 ## Full API
-<a href="https://github.com/datastructures-js/trie#contents">datastructures-js/trie</a>
+<a href="https://github.com/datastructures-js/trie#datastructures-jstrie">datastructures-js/trie</a>
 <br /><br />
