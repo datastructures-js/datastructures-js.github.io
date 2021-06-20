@@ -8,6 +8,7 @@ permalink: /graph
 <div class="ds-badges">
   <img src="https://img.shields.io/npm/v/@datastructures-js/graph.svg"/>
   <img src="https://img.shields.io/npm/dm/@datastructures-js/graph.svg"/>
+  <img src="https://user-images.githubusercontent.com/6517308/121813242-859a9700-cc6b-11eb-99c0-49e5bb63005b.jpg" width="40">
 </div>
 <hr />
 
@@ -27,5 +28,5 @@ import { Graph, DirectedGraph } from '@datastructures-js/graph';
 ```
 
 ## Full API
-<a href="https://github.com/datastructures-js/graph#table-of-contents">datastructures-js/graph</a>
+<a href="https://github.com/datastructures-js/graph/#datastructures-jsgraph">datastructures-js/graph</a>
 <br /><br />
