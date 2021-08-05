@@ -19,12 +19,12 @@ npm install --save @datastructures-js/heap
 
 ## require
 ```js
-const { MinHeap, MaxHeap } = require('@datastructures-js/heap');
+const { MinHeap, MaxHeap, CustomHeap } = require('@datastructures-js/heap');
 ```
 
 ## import
 ```js
-import { MinHeap, MaxHeap, HeapNode } from '@datastructures-js/heap';
+import { MinHeap, MaxHeap, CustomHeap, HeapNode } from '@datastructures-js/heap';
 ```
 
 ## Full API
