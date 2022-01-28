@@ -3,7 +3,7 @@ layout: default
 permalink: /deque
 ---
 
-# Queue
+# Deque
 <div class="ds-badges">
   <img src="https://img.shields.io/npm/v/@datastructures-js/deque.svg"/>
   <img src="https://img.shields.io/npm/dm/@datastructures-js/deque.svg"/>
