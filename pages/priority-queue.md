@@ -20,18 +20,18 @@ npm install --save @datastructures-js/priority-queue
 ## require
 ```js
 const {
+  PriorityQueue
   MinPriorityQueue,
-  MaxPriorityQueue
+  MaxPriorityQueue,
 } = require('@datastructures-js/priority-queue');
 ```
 
 ## import
 ```js
 import {
+  PriorityQueue
   MinPriorityQueue,
   MaxPriorityQueue,
-  PriorityQueueOptions,
-  PriorityQueueItem
 } from '@datastructures-js/priority-queue';
 ```
 
