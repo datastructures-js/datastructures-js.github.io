@@ -1,9 +1,9 @@
 title: datastructures-js
 email: eyas.ranjous@gmail.com
-description: The javascript data structures project (with typescript support).
+description: The javascript data structures project (w/ typescript support).
 baseurl: ""
 url: ""
-github_username:  eyas.ranjous
+github_username:  eyas-ranjous
 theme: jekyll-theme-tactile
 author: Eyas Ranjous
 logo: "/assets/images/ds-logo-1.png"
