@@ -1,2 +1,2 @@
 # The Javascript Datastructures Project
-Explore all the implemented datastructures https://github.com/datastructures-js
+Explore all the implemented datastructures here https://github.com/datastructures-js
